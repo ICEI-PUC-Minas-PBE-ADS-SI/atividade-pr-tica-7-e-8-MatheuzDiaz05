@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Filme</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="movieDetails" class="text-white"></div>
+        <a href="index.html" class="btn btn-primary mt-3">Voltar</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const movieId = params.get("id");
+            const movies = {
+                "1": { title: "De Volta para o Futuro", image: "btf.jpg", description: "Um clássico de viagem no tempo." },
+                "2": { title: "Karate Kid", image: "karate kid.jpg", description: "A incrível jornada de um jovem que saiu de um oprimido para um campeão." },
+                "3": { title: "Star Wars", image: "star wars.jpg", description: "A maior saga espacial de todos os tempos, com jornadas incriveis." },
+                "4": { title: "E.T. O Extraterrestre", image: "et.jpg", description: "Uma amizade emocionante entre um garoto e um alienígena." },
+                "5": { title: "Indiana Jones", image: "indiana jones.jpg", description: "As aventuras do arqueólogo mais famoso do cinema." },
+                "6": { title: "O Máscara", image: "Mascara.jpg", description: "Uma comédia hilariante com Jim Carrey e seu cachorro." }
+            };
+
+            if (movieId && movies[movieId]) {
+                document.getElementById("movieDetails").innerHTML = `
+                    <h1>${movies[movieId].title}</h1>
+                    <img src="${movies[movieId].image}" class="img-fluid" alt="${movies[movieId].title}">
+                    <p class="mt-3">${movies[movieId].description}</p>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>

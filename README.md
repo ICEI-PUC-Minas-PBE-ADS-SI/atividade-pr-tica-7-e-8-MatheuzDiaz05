@@ -12,10 +12,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus H Dias 
+- Matricula: 881586
+- Proposta de projeto escolhida: Catalogo de filmes.
+- Breve descrição sobre seu projeto: Catalogo de filmes com cartazes de filmes classicos.
 
 ## Print da versão responsiva com CSS puro
 
