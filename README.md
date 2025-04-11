@@ -12,15 +12,17 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Matheus Henrique Dias 
+- Matricula: 881586
+- Proposta de projeto escolhida: CATALOGO DE FILMES
+- Breve descrição sobre seu projeto: 
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  COLOQUE A IMAGEM AQUI >>![Captura de tela 2025-03-31 192522](https://github.com/user-attachments/assets/152dbd9b-6d2d-46a2-ba04-358e0d7f44dc)
+
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  COLOQUE A IMAGEM AQUI >>![Captura de tela 2025-04-01 194232](https://github.com/user-attachments/assets/32a62065-f664-406d-8637-c03435eecd6f)
+
